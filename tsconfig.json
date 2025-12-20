@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    /* -------------------------- Basic Options -------------------------- */
+    "target": "ESNext",                          /* Use the latest ECMAScript features supported by modern Node.js versions. */
+    "module": "NodeNext",                        /* Required for ESM in Node.js (matches "type": "module" in package.json). */
+    "moduleResolution": "NodeNext",             /* Essential for modern module resolution patterns. */
+    "lib": ["ESNext"],                          /* Use the latest language features. */
+    "rootDir": "./src",                         /* Specifies the root folder of source files. */
+    "outDir": "./dist",                         /* Where compiled files will be output. */
+    "removeComments": true,                     /* Strip comments for a cleaner production build. */
+    "sourceMap": true,                          /* Useful for debugging compiled code in production. */
+    "incremental": true,                        /* Enable incremental compilation for faster rebuilds. */
+
+    /* -------------------------- Strictness -------------------------- */
+    "strict": true,                             /* Enable all strict type-checking options. */
+    "noImplicitAny": true,                      /* Error on expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": true,                   /* Ensures that null/undefined are handled. */
+    "noUnusedLocals": true,                     /* Report errors on unused local variables. */
+    "noUnusedParameters": true,                 /* Report errors on unused parameters in functions. */
+    "noImplicitReturns": true,                  /* Ensure all code paths in a function return a value. */
+    "noFallthroughCasesInSwitch": true,         /* Prevent accidental fall-throughs in switch statements. */
+    "noUncheckedIndexedAccess": true,           /* Treats any array access as possibly undefined (highly recommended for safety). */
+    "useUnknownInCatchVariables": true,         /* Catch clauses will have 'unknown' instead of 'any'. */
+
+    /* -------------------------- Interop & Performance -------------------------- */
+    "esModuleInterop": true,                    /* Simplifies importing CommonJS modules as ESM. */
+    "forceConsistentCasingInFileNames": true,   /* Ensures your code works on both Case-Sensitive (Linux) and Case-Insensitive (Windows) systems. */
+    "skipLibCheck": true,                       /* Skip type checking of declaration files (.d.ts) for faster builds. */
+    "resolveJsonModule": true,                 /* Allows you to import .json files directly. */
+    "isolatedModules": true,                    /* Ensures that each file can be safely transpiled without relying on other imports. */
+
+    /* -------------------------- Path Aliases -------------------------- */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]                          /* Allows شما to use '@/' as a shortcut for 'src/'. */
+    }
+  },
+  "include": ["src/**/*"],                      /* Only include files in the src directory. */
+  "exclude": ["node_modules", "dist"]           /* Explicitly exclude build artifacts and dependencies. */
+}
