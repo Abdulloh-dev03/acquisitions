@@ -1,0 +1,32 @@
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:13:23:46 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"::1 - - [21/Dec/2025:13:23:46 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:13:24:53 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:13:24:53 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:14:28:02 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:14:28:31 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:14:29:03 +0000] \"GET /health HTTP/1.1\" 404 145 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:14:29:25 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:14:39:03 +0000] \"GET /api/sign-in HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:14:39:14 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:14:42:57 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:14:42:59 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:14:43:08 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 404 156 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:14:43:13 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 404 156 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:14:44:42 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:11:52:35 +0000] \"POST /api/auth/sign-up?=+ HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User registered succesfully test@gmil.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:11:55:52 +0000] \"POST /api/auth/sign-up?=+ HTTP/1.1\" 201 97 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered succesfully admin@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:11:56:14 +0000] \"POST /api/auth/sign-up?=+ HTTP/1.1\" 201 101 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User adrian@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered succesfully adrian@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:11:56:55 +0000] \"POST /api/auth/sign-up?=+ HTTP/1.1\" 201 102 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User adrian@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User logged in succesfully adrian@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:12:53:46 +0000] \"POST /api/auth/sign-in?=+ HTTP/1.1\" 200 101 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"SignOut attempted without token","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:12:53:54 +0000] \"POST /api/auth/sign-out?=+ HTTP/1.1\" 200 29 \"-\" \"HTTPie\"","service":"acquisitions-api"}
