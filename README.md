@@ -165,6 +165,12 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ---
 
+## 📚 Tutorial
+
+This project was built following this [YouTube tutorial](https://youtu.be/H5FAxTBuNM8?si=5axZ2-mPLWohGNPD).
+
+---
+
 ## 📄 License
 
 This project is licensed under the [ISC License](LICENSE).
