@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: acquisitions-app-prod
+    env_file:
+      - .env.production
+    environment:
+      NODE_ENV: production
+      # DATABASE_URL is expected to be a Neon Cloud connection string, e.g.:
+      # postgres://<user>:<password>@<neon-host>.neon.tech/<dbname>?sslmode=require
+      # You can also override DATABASE_URL at deploy time via your orchestrator.
+    ports:
+      - '4000:4000'
+    restart: unless-stopped
+
+# Note: Neon Cloud is a managed serverless Postgres service and does not run as a local container.
+# This compose file only runs the application; DATABASE_URL points to your Neon Cloud instance.

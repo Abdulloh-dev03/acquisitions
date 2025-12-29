@@ -1,0 +1,39 @@
+version: '3.9'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    container_name: acquisitions-app-dev
+    env_file:
+      - .env.development
+    environment:
+      NODE_ENV: development
+      # Fallback for local dev if .env.development is missing
+      # DATABASE_URL: postgres://neon:npg@neon-local:5432/neondb
+    ports:
+      - '4000:4000'
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      - neon-local
+
+  neon-local:
+    image: neondatabase/neon_local:latest
+    container_name: neon-local
+    restart: unless-stopped
+    ports:
+      - '5432:5432'
+    environment:
+      # These must be provided in your .env.development or shell
+      NEON_API_KEY: ${NEON_API_KEY}
+      NEON_PROJECT_ID: ${NEON_PROJECT_ID}
+      # Use the serverless driver so @neondatabase/serverless works with Neon Local
+      DRIVER: serverless
+      # Optional: ensure ephemeral branches are cleaned up
+      # DELETE_BRANCH: 'true'
+    # Neon Local will expose a Postgres-compatible endpoint on port 5432
+    # Our app connects via DATABASE_URL=postgres://neon:npg@neon-local:5432/neondb
