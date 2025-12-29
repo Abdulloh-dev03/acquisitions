@@ -141,3 +141,48 @@
 {"level":"info","message":"Getting all users...","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:30:24 +0000] \"GET /api/users HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:30:24 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:31:19 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:31:26 +0000] \"GET /api/users HTTP/1.1\" 401 72 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:31:35 +0000] \"GET /api/users/2 HTTP/1.1\" 401 72 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:31:36 +0000] \"GET /api/users/2 HTTP/1.1\" 401 72 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:31:54 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User logged in succesfully admin@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:31:58 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 100 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: admin@gmail.com (admin)","service":"acquisitions-api"}
+{"createdAt":"2025-12-24T11:56:55.487Z","email":"adrian@gmail.com","id":2,"level":"info","message":"User retrieved successfully","name":"Adrian","role":"user","service":"acquisitions-api","updatedAt":"2025-12-24T11:56:55.487Z"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:32:19 +0000] \"GET /api/users/2 HTTP/1.1\" 200 152 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: admin@gmail.com (admin)","service":"acquisitions-api"}
+{"level":"info","message":"Getting Users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:32:27 +0000] \"GET /api/users HTTP/1.1\" 200 349 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: usertest2@gmail.com (user)","service":"acquisitions-api"}
+{"level":"error","message":"Error getting user by id 3: User not found","service":"acquisitions-api","stack":"Error: User not found\n    at getUserByIdService (/usr/src/app/src/services/users.service.ts:40:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async getUserById (/usr/src/app/src/controllers/users.controller.ts:51:18)"}
+{"level":"error","message":"Error getting user User not found","service":"acquisitions-api","stack":"Error: User not found\n    at getUserByIdService (/usr/src/app/src/services/users.service.ts:40:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async getUserById (/usr/src/app/src/controllers/users.controller.ts:51:18)"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:32:36 +0000] \"GET /api/users/3 HTTP/1.1\" 500 429 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:33:01 +0000] \"DELETE /api/users HTTP/1.1\" 404 151 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: admin@gmail.com (admin)","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:33:08 +0000] \"DELETE /api/users/2 HTTP/1.1\" 200 39 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User adminonly@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered succesfully adminonly@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:37:00 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 113 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User adminonly@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User logged in succesfully adminonly@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:37:17 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:37:32 +0000] \"GET /api/users/ HTTP/1.1\" 401 72 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:37:38 +0000] \"GET /api/users/2 HTTP/1.1\" 401 72 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:37:43 +0000] \"GET /api/users/1 HTTP/1.1\" 401 72 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:37:46 +0000] \"GET /api/users/3 HTTP/1.1\" 401 72 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:38:26 +0000] \"POST /api/users HTTP/1.1\" 404 149 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:38:28 +0000] \"POST /api/user HTTP/1.1\" 404 148 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: adminonly@gmail.com (admin)","service":"acquisitions-api"}
+{"level":"info","message":"Getting Users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:38:33 +0000] \"GET /api/users HTTP/1.1\" 200 360 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: adminonly@gmail.com (admin)","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:38:42 +0000] \"DELETE /api/users/1 HTTP/1.1\" 200 39 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Dec/2025:12:16:47 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Dec/2025:12:16:47 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Dec/2025:12:16:47 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Dec/2025:12:17:05 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Dec/2025:12:17:05 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Dec/2025:12:17:05 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
