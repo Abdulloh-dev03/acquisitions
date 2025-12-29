@@ -54,10 +54,10 @@ export const getUserById = async (
       return res.status(404).json({ error: 'User not found' });
     }
 
-    return res.json({ 
+    return res.json({
       message: 'User retrieved successfully',
       user,
-     });
+    });
   } catch (e) {
     logger.error('Error getting user', e);
     return next(e);

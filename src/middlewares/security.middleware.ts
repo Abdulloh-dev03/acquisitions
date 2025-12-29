@@ -4,9 +4,9 @@ import { slidingWindow } from '@arcjet/node';
 import { NextFunction, Request, Response } from 'express';
 
 const securityMiddleware = async (
-    req: Request,
-    res: Response,
-    next: NextFunction
+  req: Request,
+  res: Response,
+  next: NextFunction
 ) => {
   try {
     const role = req.user?.role || 'guest';
@@ -43,12 +43,26 @@ const securityMiddleware = async (
 
     if (decision.isDenied() && decision.reason.isBot()) {
       logger.warn('Bot request blocked', { ip: req.ip, path: req.path });
-      return res.status(403).json({ error: 'Forbidden', message: 'Automated requests are not allowed' });
+      return res
+        .status(403)
+        .json({
+          error: 'Forbidden',
+          message: 'Automated requests are not allowed',
+        });
     }
 
     if (decision.isDenied() && decision.reason.isShield()) {
-      logger.warn('Shield policy block', { ip: req.ip, method: req.method, path: req.path });
-      return res.status(403).json({ error: 'Forbidden', message: 'Request blocked by security policy' });
+      logger.warn('Shield policy block', {
+        ip: req.ip,
+        method: req.method,
+        path: req.path,
+      });
+      return res
+        .status(403)
+        .json({
+          error: 'Forbidden',
+          message: 'Request blocked by security policy',
+        });
     }
 
     if (decision.isDenied() && decision.reason.isRateLimit()) {
@@ -59,7 +73,12 @@ const securityMiddleware = async (
     next();
   } catch (e) {
     console.error('Arcjet middleware error', e);
-    return res.status(500).json({ error: 'Internal server error', message: 'Security middleware failure' });
+    return res
+      .status(500)
+      .json({
+        error: 'Internal server error',
+        message: 'Security middleware failure',
+      });
   }
 };
 

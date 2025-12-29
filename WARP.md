@@ -5,6 +5,7 @@ This file provides guidance to WARP (warp.dev) when working with code in this re
 ## Project overview
 
 This is a Node.js + TypeScript Express API for an "Acquisitions" service. It uses:
+
 - ESM modules (`"type": "module"` in `package.json`, `NodeNext` in `tsconfig.json`)
 - Drizzle ORM with Neon serverless Postgres
 - Zod for request validation
@@ -77,6 +78,7 @@ npm run db:studio
 ### Domain layout (`src/`)
 
 The `package.json#imports` and `tsconfig` paths expose these internal aliases:
+
 - `#config/*` → `src/config/*`
 - `#controllers/*` → `src/controllers/*`
 - `#models/*` → `src/models/*`
@@ -167,6 +169,7 @@ There is also a `@/*` alias (from `tsconfig.json`) pointing at `src/*` for more 
 ## Linting and style
 
 ESLint is configured via `eslint.config.ts` using `@eslint/js`, `typescript-eslint`, and Prettier integration:
+
 - Targets modern ESM (`sourceType: 'module'`) with Node globals.
 - Enforces single quotes, semicolons, `prefer-const`, `no-var`, and object shorthand.
 - Treats unused variables that start with `_` as intentionally unused.

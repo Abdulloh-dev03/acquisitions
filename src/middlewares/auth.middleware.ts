@@ -3,7 +3,11 @@ import logger from '#config/logger.js';
 import { jwttoken } from '#utils/jwt.js';
 import { JwtUser } from '#types/index.js';
 
-export const authenticateToken = (req: Request, res: Response, next: NextFunction) => {
+export const authenticateToken = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
   try {
     const token = req.cookies.token as string | undefined;
 
@@ -41,7 +45,9 @@ export const requireRole = (allowedRoles: JwtUser['role'][]) => {
     const { role, email } = req.user;
 
     if (!allowedRoles.includes(role)) {
-      logger.warn(`Access denied for ${email} with role ${role}. Required: ${allowedRoles.join(', ')}`);
+      logger.warn(
+        `Access denied for ${email} with role ${role}. Required: ${allowedRoles.join(', ')}`
+      );
       return res.status(403).json({
         error: 'Access denied',
         message: 'Insufficient permissions',
