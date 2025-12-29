@@ -11,3 +11,12 @@ export interface CreateUserDTO {
   password: string;
   role?: 'user' | 'admin';
 }
+
+export interface JwtUser {
+  id: number;
+  name: string;
+  email: string;
+  role: 'admin' | 'user' | 'guest';
+  iat?: number;
+  exp?: number;
+}

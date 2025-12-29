@@ -62,3 +62,82 @@
 {"level":"info","message":"::ffff:172.22.0.1 - - [28/Dec/2025:16:52:23 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:172.22.0.1 - - [28/Dec/2025:16:52:59 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:172.22.0.1 - - [28/Dec/2025:16:53:17 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"User usertest@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered succesfully usertest@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:02:48:42 +0000] \"POST /api/auth/sign-up?=+ HTTP/1.1\" 201 106 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:05:59:24 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:05:59:24 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:05:59:49 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:05:59:49 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting all users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:05:59:58 +0000] \"GET /api/users HTTP/1.1\" 200 353 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:11:30 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:12:42 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting all users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:12:48 +0000] \"GET /api/users HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:12:54 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:14:27 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting all users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:14:33 +0000] \"GET /api/users HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:14:38 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:15:01 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:15:29 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:15:31 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting all users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:15:35 +0000] \"GET /api/users/ HTTP/1.1\" 200 353 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.22.0.1","level":"warn","message":"Rate limit exceeded","path":"/api/users/2","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:15:38 +0000] \"GET /api/users/2 HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.22.0.1","level":"warn","message":"Rate limit exceeded","path":"/api/users/2","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:15:38 +0000] \"GET /api/users/2 HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.22.0.1","level":"warn","message":"Rate limit exceeded","path":"/api/users/1","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:15:44 +0000] \"GET /api/users/1 HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"User usertest1@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered succesfully usertest1@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:49:33 +0000] \"POST /api/auth/sign-up?=+ HTTP/1.1\" 201 108 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User usertest2@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered succesfully usertest2@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:49:41 +0000] \"POST /api/auth/sign-up?=+ HTTP/1.1\" 201 108 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting all users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:49:47 +0000] \"GET /api/users HTTP/1.1\" 200 653 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:49:52 +0000] \"GET /api/users/4 HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:07:51:07 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting all users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:00:03 +0000] \"GET /api/users HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:00:03 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:00:08 +0000] \"GET /api/users/4 HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"User usertest2@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User logged in succesfully usertest2@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:00:50 +0000] \"POST /api/auth/sign-in?=+ HTTP/1.1\" 200 107 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:01:55 +0000] \"GET /api/users/2?=+ HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:02:02 +0000] \"GET /api/users/2?=+ HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:02:02 +0000] \"GET /api/users/2?=+ HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:02:03 +0000] \"GET /api/users/2?=+ HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:09:25 +0000] \"GET /api/users/2?=+ HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:09:43 +0000] \"GET /api/users/3?=+ HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:10:53 +0000] \"GET /api/users/4 HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting all users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:10:56 +0000] \"GET /api/users HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:10:56 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User logged in succesfully admin@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:11:29 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 100 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:11:52 +0000] \"POST /api/users/2 HTTP/1.1\" 200 11 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:11:56 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:23:38 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:23:39 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting all users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:27:22 +0000] \"GET /api/users HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:27:23 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:27:29 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:27:36 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:27:38 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:27:38 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:27:44 +0000] \"GET /api/users/3 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:27:45 +0000] \"GET /api/users/3 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:27:46 +0000] \"GET /api/users/3 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting all users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:30:24 +0000] \"GET /api/users HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [29/Dec/2025:08:30:24 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
